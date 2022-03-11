@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le juste prix</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <h1>Le Juste Prix</h1>
+
+    <section class="regles">
+        <p>Bienvenue dans le Juste Prix ! Le but du jeu est de retrouver le nombre caché, qui est compris entre 1 et 100 ! Pour cela, tapez le nombre que vous souhaitez, vous aurez alors un indice qui vous indiquera si le nombre caché est inférieur ou supérieur à votre nombre !<br><br>Bonne chance !</p>
+    </section>
+
+    <section class="sec_form">
+        <form>
+            <label for="input_number">Tapez un nombre (entre 0 et 100)</label>
+            <input type="text" id="input_number"></input>
+            <input type="submit" id="button" value="OK"></button>
+        </form>
+        <p class="hint">...</p>
+    </section>
+
+    <section class="victoire">
+        <p class="you_won">______________<br>Félicitations, vous avez gagné !</p>
+        <div class="right_number">
+            <p>Le nombre correct était :</p>
+            <div id="nbr">1</div>
+        </div>
+        <button id="replay">Rejouer</button>
+    </section>
+    <script src="index.js"></script>
+
+</body>
+</html>
