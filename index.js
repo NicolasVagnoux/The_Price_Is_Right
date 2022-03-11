@@ -56,6 +56,7 @@ replay.onclick = function(event) {
     random = Math.floor(Math.random()*100)+1;
     nbrInput.value = "";
     victory.classList.toggle('victoire2');
+    hint.innerHTML = "...";
 }
 
 
